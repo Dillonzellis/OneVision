@@ -1,0 +1,122 @@
+/* Fin Literacy */
+
+.fin-lit-container {
+  background-image: url("http://www.onevisionfcu.org/wp-content/uploads/2022/08/fin-lit-bg.png");
+  font-family: "Open Sans";
+  max-width: 1100px;
+  margin-inline: auto;
+
+  margin-top: 3rem;
+}
+
+.content-container {
+
+  margin-inline: auto;
+}
+
+@media(min-width:900px){
+    .content-container{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+.fin-lit-container h1 {
+  color: #003593;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 2rem;
+}
+@media (min-width: 900px) {
+  .fin-lit-container h1 {
+    font-size: 40px;
+
+  }
+}
+
+.fin-lit-container h2 {
+  color: #c66d55;
+  font-size: 15px;
+  text-align: center;
+}
+
+@media (min-width: 900px) {
+  .fin-lit-container h2 {
+    font-size: 20px;
+  }
+}
+
+.fin-lit-container ol {
+  color: #c66d55;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+@media (min-width: 900px) {
+  .fin-lit-container ol {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+  }
+}
+
+.fin-lit-container ol > li {
+  /* margin-right: 1rem; */
+}
+
+.icon-grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (min-width: 900px) {
+  .icon-grid-container {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+.icon-card {
+  width: 150px;
+  margin-bottom: 1rem;
+  margin-inline: auto;
+}
+
+.icon-img img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+.icon-infographic {
+  background-color: #f38b00;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  padding: 0.25em;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.icon-test {
+  background-color: #6092a0;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  padding: 0.25em;
+  font-weight: 700;
+}
+
+.questions {
+  color: #003593;
+  font-size: 16.5px;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 900px) {
+  .questions {
+    font-size: 20px;
+
+  }
+}
